@@ -1,0 +1,207 @@
+/* Xóa khoảng cách mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+.header {
+    background-color: #76C0EC;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* NAVBAR */
+.navbar-custom {
+    min-height: 70px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+/* LOGO */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+
+/* MENU */
+.menu {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+
+    list-style: none;
+    margin-bottom: 0;
+}
+
+
+.menu li {
+    position: relative;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+
+    font-size: 16px;
+}
+
+
+/* Hiệu ứng khi rê chuột */
+.menu > li > a:hover {
+    color: #0d6efd;
+}
+
+
+/* ========================= */
+/* DROPDOWN */
+/* ========================= */
+
+.dropdown-menu-custom {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    min-width: 150px;
+
+    background-color: white;
+
+    list-style: none;
+
+    padding: 10px 0;
+
+    border: 1px solid #ddd;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    /* Ban đầu ẩn */
+    display: none;
+
+    z-index: 1000;
+}
+
+
+/* Các mục trong dropdown */
+.dropdown-menu-custom li {
+    width: 100%;
+}
+
+
+.dropdown-menu-custom a {
+    display: block;
+
+    padding: 10px 15px;
+
+    color: #222;
+}
+
+
+/* Hover vào từng mục */
+.dropdown-menu-custom a:hover {
+    background-color: #f2f2f2;
+
+    color: #0d6efd;
+}
+
+
+/* Hover vào Danh mục thì dropdown hiện */
+.dropdown:hover .dropdown-menu-custom {
+    display: block;
+}
+
+
+/* ========================= */
+/* BUTTON ĐĂNG NHẬP / ĐĂNG KÝ */
+/* ========================= */
+
+.account-buttons {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.btn-login,
+.btn-register {
+    padding: 8px 16px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-size: 15px;
+}
+
+
+/* Đăng nhập */
+.btn-login {
+    border: 1px solid #0d6efd;
+
+    color: #0d6efd;
+}
+
+
+.btn-login:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+/* Đăng ký */
+.btn-register {
+    background-color: #0d6efd;
+
+    border: 1px solid #0d6efd;
+
+    color: white;
+}
+
+
+.btn-register:hover {
+    background-color: #0b5ed7;
+}
+
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .navbar-custom {
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 15px 0;
+    }
+
+
+    .menu {
+        gap: 15px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+
+    .account-buttons {
+        justify-content: center;
+    }
+
+}
