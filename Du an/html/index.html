@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trang bán hàng uy tin</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <!-- Font Awesome - ICON -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS của mình -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- CSS cho icon -->
+    <style>
+        .menu i,
+        .account-buttons i {
+            margin-right: 6px;
+        }
+
+        .footer-column h3 i {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="navbar-custom">
+
+                <!-- LOGO -->
+                <a href="#" class="logo">
+                    <img src="../assets/img/logo cho du an cuoi khoa.png" alt="logo">
+                    <span>SHOP</span>
+                </a>
+
+
+                <!-- MENU -->
+                <ul class="menu">
+
+                    <!-- TRANG CHỦ -->
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Trang chủ
+                        </a>
+                    </li>
+
+
+                    <!-- DROPDOWN DANH MỤC -->
+                    <li class="dropdown">
+
+                        <a href="#">
+                            <i class="fa-solid fa-list"></i>
+                            Danh mục
+                        </a>
+
+                        <ul class="menu-dropdown">
+
+                            <li>
+                                <a href="../html/dien-thoai.html">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                    Điện thoại và phụ kiện
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/may-anh.html">
+                                    <i class="fa-solid fa-camera"></i>
+                                    Máy ảnh và quay phim
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/may-tinh.html">
+                                    <i class="fa-solid fa-laptop"></i>
+                                    Máy tính và laptop
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/me-va-be.html">
+                                    <i class="fa-solid fa-baby"></i>
+                                    Mẹ và bé
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/nha-cua.html">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                    Nhà cửa và đời sống
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/quan-ao-nam.html">
+                                    <i class="fa-solid fa-shirt"></i>
+                                    Quần áo nam
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/quan-ao-nu.html">
+                                    <i class="fa-solid fa-shirt"></i>
+                                    Quần áo nữ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/sac-dep.html">
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                    Sắc đẹp
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/suc-khoe.html">
+                                    <i class="fa-solid fa-heart-pulse"></i>
+                                    Sức khỏe
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../html/thiet-bi-dien-tu.html">
+                                    <i class="fa-solid fa-tv"></i>
+                                    Thiết bị điện tử
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- LIÊN HỆ -->
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                            Liên hệ
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <!-- BUTTON -->
+                <div class="account-buttons">
+
+                    <a href="#" class="btn-login">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        Đăng nhập
+                    </a>
+
+                    <a href="#" class="btn-register">
+                        <i class="fa-solid fa-user-plus"></i>
+                        Đăng ký
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ========================= -->
+    <!-- DANH MỤC -->
+    <!-- ========================= -->
+
+    <section class="Danh-muc">
+
+        <h2>
+            <i class="fa-solid fa-layer-group"></i>
+            Danh mục
+        </h2>
+
+        <div class="Cac-danh-muc">
+
+
+            <!-- 1. ĐIỆN THOẠI -->
+            <div class="San-pham">
+
+                <a href="../html/dien-thoai.html">
+
+                    <img src="../assets/img/dien thoai va phu kien du an cuoi khoa.webp"
+                        alt="Điện thoại và phụ kiện">
+
+                    <p>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        Điện thoại và phụ kiện
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 2. MÁY ẢNH -->
+            <div class="San-pham">
+
+                <a href="../html/may-anh.html">
+
+                    <img src="../assets/img/may anh va quay phim du an cuoi khoa.webp"
+                        alt="Máy ảnh và quay phim">
+
+                    <p>
+                        <i class="fa-solid fa-camera"></i>
+                        Máy ảnh và quay phim
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 3. MÁY TÍNH -->
+            <div class="San-pham">
+
+                <a href="../html/may-tinh.html">
+
+                    <img src="../assets/img/may tinh va laptop du an cuoi khoa.webp"
+                        alt="Máy tính và laptop">
+
+                    <p>
+                        <i class="fa-solid fa-laptop"></i>
+                        Máy tính và laptop
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 4. MẸ VÀ BÉ -->
+            <div class="San-pham">
+
+                <a href="../html/me-va-be.html">
+
+                    <img src="../assets/img/me va be du an cuoi khoa.webp"
+                        alt="Mẹ và bé">
+
+                    <p>
+                        <i class="fa-solid fa-baby"></i>
+                        Mẹ và bé
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 5. NHÀ CỬA -->
+            <div class="San-pham">
+
+                <a href="../html/nha-cua.html">
+
+                    <img src="../assets/img/nha cua va doi song du an cuoi khoa.webp"
+                        alt="Nhà cửa và đời sống">
+
+                    <p>
+                        <i class="fa-solid fa-house-chimney"></i>
+                        Nhà cửa và đời sống
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 6. QUẦN ÁO NAM -->
+            <div class="San-pham">
+
+                <a href="../html/quan-ao-nam.html">
+
+                    <img src="../assets/img/quan ao nam du an cuoi khoa.webp"
+                        alt="Quần áo nam">
+
+                    <p>
+                        <i class="fa-solid fa-shirt"></i>
+                        Quần áo nam
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 7. QUẦN ÁO NỮ -->
+            <div class="San-pham">
+
+                <a href="../html/quan-ao-nu.html">
+
+                    <img src="../assets/img/quan ao nu du an cuoi khoa.webp"
+                        alt="Quần áo nữ">
+
+                    <p>
+                        <i class="fa-solid fa-shirt"></i>
+                        Quần áo nữ
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 8. SẮC ĐẸP -->
+            <div class="San-pham">
+
+                <a href="../html/sac-dep.html">
+
+                    <img src="../assets/img/sac dep du an cuoi khoa.webp"
+                        alt="Sắc đẹp">
+
+                    <p>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        Sắc đẹp
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 9. SỨC KHỎE -->
+            <div class="San-pham">
+
+                <a href="../html/suc-khoe.html">
+
+                    <img src="../assets/img/suc khoe du an cuoi khoa.webp"
+                        alt="Sức khỏe">
+
+                    <p>
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        Sức khỏe
+                    </p>
+
+                </a>
+
+            </div>
+
+
+            <!-- 10. THIẾT BỊ ĐIỆN TỬ -->
+            <div class="San-pham">
+
+                <a href="../html/thiet-bi-dien-tu.html">
+
+                    <img src="../assets/img/thiet bi dien tu du an cuoi khoa.webp"
+                        alt="Thiết bị điện tử">
+
+                    <p>
+                        <i class="fa-solid fa-tv"></i>
+                        Thiết bị điện tử
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- FLASH SALE -->
+    <!-- ========================= -->
+
+    <section class="flash-sale">
+
+        <div class="flash-sale-title">
+            <h2>
+                <i class="fa-solid fa-fire"></i>
+                Hàng đang bán chạy
+            </h2>
+        </div>
+
+
+        <div class="flash-sale-list">
+
+
+            <!-- GPU -->
+            <div class="flash-product">
+
+                <img src="https://cdn.hstatic.net/products/200000420363/66fa04fcf38290b75a927a0d713c57_606a4be57e38408f966f6414342385e0_compact.png"
+                    alt="GPU">
+
+                <p>
+                    Card màn hình JGINYUE NVIDIA GeForce RTX 3060 BLACK DUAL FAN
+                    (N306012-HTRF-JG2) | 12GB GDDR6, 192-bit, 3DP, HDMI
+                </p>
+
+                <p class="price">
+                    PRICE: 9.290.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- CPU -->
+            <div class="flash-product">
+
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSIgsAOj4FHYX0YYh81YPrq0NVwLwWP9vFAZ_FaVeTB94Hvn7pKk2fc_WxY0a2ORJRC4BbsyAGNqRPYr_xWHN_6nAZCyD4C"
+                    alt="CPU">
+
+                <p>
+                    Bộ vi xử lý/ CPU AMD Ryzen 5 5600 100-100000927BOX
+                </p>
+
+                <p class="price">
+                    PRICE: 2.789.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- MAINBOARD -->
+            <div class="flash-product">
+
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQfDATzE_typQhonGas5X-ne8-Orss1cIzDddzXl-H5pwZ6sNDDV4RMbqDFj6uWGXDPkOvyXt5g2KgMK-snQ_9XWfj_4q3CDxlyghgmk6yYfFeNJRrxnssD9VIGQgts7DyEs9_oMAUstWA&usqp=CAc"
+                    alt="main">
+
+                <p>
+                    Mainboard ASRock B550M Pro4 DDR4 | AM4, mATX, 4 khe RAM
+                </p>
+
+                <p class="price">
+                    PRICE: 2.390.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- RAM -->
+            <div class="flash-product">
+
+                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mrfons3c01l091@resize_w900_nl.webp"
+                    alt="RAM">
+
+                <p>
+                    RAM Corsair Vengeance LPX 8GB / 16GB DDR4 3200MHz
+                    Bộ Nhớ RAM PC Cho Gaming, Văn Phòng
+                </p>
+
+                <p class="price">
+                    PRICE: 1.700.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- SSD -->
+            <div class="flash-product">
+
+                <img src="https://lagihitech.vn/wp-content/uploads/2024/09/SSD-Kingston-NV3-1TB-M2-PCIe-Gen-4.0-SNV3S1000G-hinh-1.jpg"
+                    alt="SSD">
+
+                <p>
+                    SSD Kingston NV3 1TB M2 PCIe Gen 4.0 SNV3S/1000G
+                </p>
+
+                <p class="price">
+                    PRICE: 3.650.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- PSU -->
+            <div class="flash-product">
+
+                <img src="https://product.hstatic.net/200000420363/product/tinhocngoisao.com1__18__637bb6eb3ad34dcab14a27ed125bd840_compact.png"
+                    alt="PSU">
+
+                <p>
+                    Nguồn máy tính Cooler Master MWE 650W Bronze V3 230V
+                    (MPE-6501-ACABW-3BEU) | Non Modular, ATX
+                </p>
+
+                <p class="price">
+                    PRICE: 1.249.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- TẢN CPU -->
+            <div class="flash-product">
+
+                <img src="https://cdn-transformations.hacom.vn/insecure/f:webp/q:85/rt:fit/w:256/aHR0cHM6Ly9oYW5vaWNvbXB1dGVyY2RuLmNvbS9tZWRpYS9wcm9kdWN0Lzg1MzY0X3Rhbl9uaWV0X2tpX2lkX2Nvb2xpbmdfZnJvem5fYTQxMF9hcmdiX18xXy5qcGc.webp"
+                    alt="Tản CPU">
+
+                <p>
+                    Tản nhiệt khí ID-COOLING FROZN A410 ARGB
+                </p>
+
+                <p class="price">
+                    PRICE: 659.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- CASE -->
+            <div class="flash-product">
+
+                <img src="https://cdn.hstatic.net/products/200000420363/aura_gc2_elite_argb_slogan_63f60c3a0cab478794296f7cb132864d_compact.jpg"
+                    alt="case">
+
+                <p>
+                    Thùng máy Gamdias Aura GC2 Elite ARGB F-ATX
+                    (Kèm Sẵn 4F ARGB) - Đen
+                </p>
+
+                <p class="price">
+                    PRICE: 699.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+
+            <!-- MÀN HÌNH -->
+            <div class="flash-product">
+
+                <img src="https://images.openai.com/thumbnails/url/haYsZ3icDcnbDoIgAADQL_LWbdXWGpErs9BkmPrCEh02J1LgKr6q3-lv6rye76fRWqql49SCPd5S15WlS-HaXOmrvjGb9Z2jml7Km-Dr--p_S4CqxY7hQ-zTSNFULeqhlS9JqlNw9jY4cI1SsKWzLrsUebJj6V23ccgRIT7AUZDtU1h0c3YcKEhKr-YxB9bWQJA8UQghEfkUwcIYbAncT-ghLKN-sIjbjMh41oAfv9A-IQ"
+                    alt="Màn Hình">
+
+                <p>
+                    ASUS TUF Gaming VG249QE5A 24" FHD IPS
+                </p>
+
+                <p class="price">
+                    PRICE: 2.389.000
+                </p>
+
+                <div class="selling">
+                    <i class="fa-solid fa-fire"></i>
+                    ĐANG BÁN CHẠY
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-column">
+
+                <h3>
+                    <i class="fa-solid fa-circle-info"></i>
+                    Thông tin
+                </h3>
+
+                <pre>
+Đây là một trang web bán hàng uy tín
+và đáng tin cậy, miễn phí tiền giao hàng
+và hoàn tiền 100% nếu sản phẩm trong
+quá trình vận chuyển bị hư hỏng, vỡ hoặc
+không sử dụng được (chỉ xử lí những trường
+hợp trên, không hoàn tiền cho những trường
+hợp khác.)
+                </pre>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    <i class="fa-solid fa-credit-card"></i>
+                    Phương thức thanh toán
+                </h3>
+
+                <pre>
+Hỗ trợ các phương thức thanh toán gồm
+thanh toán khi nhận hàng (COD), chuyển
+khoản ngân hàng, thẻ ngân hàng và ví
+điện tử. Hiện tại, website không hỗ trợ
+thanh toán bằng tiền điện tử.
+                </pre>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>
+                    <i class="fa-solid fa-truck"></i>
+                    Đơn vị vận chuyển
+                </h3>
+
+                <pre>
+GHN — Giao Hàng Nhanh
+GHTK — Giao Hàng Tiết Kiệm
+J&T Express
+Viettel Post
+VNPost — Bưu điện Việt Nam
+Ninja Van
+BEST Express
+                </pre>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
